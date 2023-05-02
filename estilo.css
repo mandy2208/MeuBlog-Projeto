@@ -1,0 +1,81 @@
+body {
+    background-image: url("Img/gif4.gif");
+}
+
+/*Começo do site aonde eu coloquei somente a cor de fundo*/
+#fundo{
+    right: 0px; 
+    margin-left: autopx; 
+}
+#fundo2{
+    position: absolute;
+    top:0px; 
+    left:0px;
+}
+#perfil2{
+    position:relative; 
+    top:110px; 
+    left:6px;
+}
+
+header {
+    background-image: linear-gradient(to right,  #000000, #72b0f7);
+    padding: 05px;
+}
+
+/*Cor de fundo e tamanho do quadrado*/
+#começo1 {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    top: 10%;
+    right: 10%;
+}
+/* position absolute=colocar na posição 
+que eu quero de acordo cm a parte de cima do código
+top= espaço acima do elemento
+right=posição do texto horizontalmente*/
+
+nav li {
+
+    display: inline;
+    margin: 0 0 0 250px;
+}
+/* display inline= significa ficar tudo na mesma linha*
+margin: 0 0 0 15 px= margem igual para todos os lados*/
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+#perfil {
+    border: 4px solid #ffffff;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+
+}
+/*border=borda da img solid=cor
+margin=margem da imagem
+height=largura
+width=altura
+border - radius= deixar a img arredondada*/
+.modelo5{
+    color:#ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+}
