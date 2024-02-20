@@ -11,6 +11,7 @@ body{
     height: 150px; /* altura*/
     width: 150px; /* largura*/ 
     border-radius: 100px; /* aqui é para deixar em formato de circulo */
+    top: 10px;
 }
 
 header { /*cabeçalho*/
@@ -19,9 +20,8 @@ header { /*cabeçalho*/
 }
 
 #menu a{ /* coloquei o a por conta do hiperlink*/
-    
-    margin: 0 0 0 10px;
-    font-size: 10px; /* tamanho da letra*/
+    margin: 0 0 0 50px;
+    font-size: 20px; /* tamanho da letra*/
     text-decoration: none; /* aqui é para tirar o sublinhado */
     text-transform: uppercase; /* aqui é para colocar estilo  na letra*/ 
     font-weight: bold; /* negrito*/ 
@@ -30,6 +30,6 @@ header { /*cabeçalho*/
 }
 #menu a:hover{ /* este hover é para movimento no texto*/
     color: rgb(255, 255, 255); /* cor */
-    font-size: 20px; /* tamanho da letra*/ 
+    font-size: 10px; /* tamanho da letra*/ 
     text-decoration: none; /* tirar o sublinhado */
 }
