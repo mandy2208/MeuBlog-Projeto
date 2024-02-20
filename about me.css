@@ -21,7 +21,7 @@ header { /*cabeçalho*/
 #menu a{ /* coloquei o a por conta do hiperlink*/
     
     margin: 0 0 0 10px;
-    font-size: 25px; /* tamanho da letra*/
+    font-size: 10px; /* tamanho da letra*/
     text-decoration: none; /* aqui é para tirar o sublinhado */
     text-transform: uppercase; /* aqui é para colocar estilo  na letra*/ 
     font-weight: bold; /* negrito*/ 
