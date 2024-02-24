@@ -34,6 +34,13 @@ body{
     font-size: 20px;
     text-align: justify;
 }
+.titulos{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 05px;
+    color:#92b7fc;
+    font-size: 20px;
+    text-decoration: underline;
+}
 
 /*Imagem*/
 
