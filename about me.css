@@ -1,35 +1,51 @@
 *{
-    margin: 0; /* aqui é para a margem de todo o meu código*/
-    position: relative; /* aqui é para deixar a posição do meu código*/
+    margin: 0; /* aqui Ã© para a margem de todo o meu cÃ³digo*/
+    position: relative; /* aqui Ã© para deixar a posiÃ§Ã£o do meu cÃ³digo*/
 }
 body{
     background-color: black;
 }
+.text{
+    color:azure;
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px;
+    font-size: 35px;
+    font-weight: bold; 
+}
 #imagem{
-    border: 4px solid #6ea6fa; /* aqui é a borda da imagem*/
-    margin: 20px; /* aqui é a margem da imagem */
-    height: 150px; /* altura*/
-    width: 150px; /* largura*/ 
-    border-radius: 100px; /* aqui é para deixar em formato de circulo */
+    border: 4px solid #6ea6fa; /* aqui Ã© a borda da imagem*/
+    margin: 20px; /* aqui Ã© a margem da imagem */
+    height: 200px; /* altura*/
+    width: 200px; /* largura*/ 
+    border-radius: 100px; /* aqui Ã© para deixar em formato de circulo */
     top: 10px;
 }
 
-header { /*cabeçalho*/
-    background-image: linear-gradient(to right,  #000000, #002b7c); /* aqui é para deixar o retangulo em cor gradiente*/
+header { /*cabeÃ§alho*/
+    background-image: linear-gradient(to right,  #000000, #002b7c); /* aqui Ã© para deixar o retangulo em cor gradiente*/
     padding: 20px; /* tamanho do meu retangulo*/
 }
 
-#menu a{ /* coloquei o a por conta do hiperlink*/
-    margin: 0 0 0 50px;
-    font-size: 20px; /* tamanho da letra*/
-    text-decoration: none; /* aqui é para tirar o sublinhado */
-    text-transform: uppercase; /* aqui é para colocar estilo  na letra*/ 
-    font-weight: bold; /* negrito*/ 
-    color: #6ea6fa; /* cor*/
 
+nav { /* este nav Ã© para agrupa uma lista de links */
+    top: 10%; 
+    right: 10%;    
 }
-#menu a:hover{ /* este hover é para movimento no texto*/
-    color: rgb(255, 255, 255); /* cor */
-    font-size: 10px; /* tamanho da letra*/ 
-    text-decoration: none; /* tirar o sublinhado */
+nav a {
+    display: inline;
+    margin: 0 0 0 250px;
+}
+
+#menu a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
 }
