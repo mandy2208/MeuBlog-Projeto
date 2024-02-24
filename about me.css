@@ -1,51 +1,72 @@
 *{
-    margin: 0; /* aqui Ã© para a margem de todo o meu cÃ³digo*/
-    position: relative; /* aqui Ã© para deixar a posiÃ§Ã£o do meu cÃ³digo*/
+    margin: 0; /* aqui é para colocar a margem no codigo*/
+    position: relative; /* aqui é para deixar a posição do meu código*/
 }
 body{
-    background-color: black;
+    background-color: black; /*cor de fundo em preto*/
 }
+/* area textual*/
 .text{
-    color:azure;
-    text-decoration: underline;
-    text-align: center;
-    margin: 20px;
-    font-size: 35px;
-    font-weight: bold; 
-}
-#imagem{
-    border: 4px solid #6ea6fa; /* aqui Ã© a borda da imagem*/
-    margin: 20px; /* aqui Ã© a margem da imagem */
-    height: 200px; /* altura*/
-    width: 200px; /* largura*/ 
-    border-radius: 100px; /* aqui Ã© para deixar em formato de circulo */
-    top: 10px;
+    color:azure; /* cor do texto*/
+    text-decoration: underline; /* deixar o texto sublinhado*/
+    text-align: center; /* alinhar ao centro*/
+    margin: 20px; /*margem*/
+    font-size: 35px; /*tamanho*/
+    font-weight: bold; /* negrito*/
 }
 
-header { /*cabeÃ§alho*/
-    background-image: linear-gradient(to right,  #000000, #002b7c); /* aqui Ã© para deixar o retangulo em cor gradiente*/
+.text2{
+    margin: 05px;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.text3{
+    margin: 05px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/*Imagem*/
+
+#imagem{
+    border: 4px solid #6ea6fa; /* aqui é a borda da imagem e a cor*/
+    margin: 20px; /* aqui é a margem da imagem */
+    height: 200px; /* altura*/
+    width: 200px; /* largura*/ 
+    border-radius: 100px; /* aqui é para deixar em formato de circulo */
+    top: 10px; /* deixar alinhado*/
+}
+
+/*retangulo*/ 
+
+header { /*Cabeçalho*/
+    background-image: linear-gradient(to right,  #000000, #002b7c); /* aqui é para deixar o retangulo em cor gradiente*/
     padding: 20px; /* tamanho do meu retangulo*/
 }
 
+/* menu*/ 
 
-nav { /* este nav Ã© para agrupa uma lista de links */
-    top: 10%; 
-    right: 10%;    
+nav { /* este nav é para agrupa uma lista de links */
+    top: 10%; /* alinhamento para cima*/
+    right: 10%; /* alinhamento a direita*/    
 }
-nav a {
-    display: inline;
-    margin: 0 0 0 250px;
-}
-
-#menu a {
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
+nav a { /* colocamos o A por conta do hiperlink*/
+    display: inline; /* é para deixar em formato de linha porém dentro do retangulo*/
+    margin: 0 0 0 250px; /* aqui é para deixar um do lado do outro*/
 }
 
-#menu a:hover {
-    color: rgb(255, 255, 255);
-    font-size: 15px;
+#menu a { /* colocamos o A por conta do hiperlink*/
+    text-transform: uppercase; /* formato da letra*/
+    color: rgb(255, 255, 255); /* cor da letra*/
+    font-weight: bold; /* negrito*/
+    font-size: 20px; /* tamanho*/
+    text-decoration: none; /* deixar sem sublinhado*/
 }
+
+#menu a:hover { /* este hover é para movimento no texto*/
+    color: rgb(110, 200, 252);  /* cor*/
+    font-size: 15px; /* tamanho do texto no movimento*/
+}
+
+/* textual*/
