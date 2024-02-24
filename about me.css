@@ -6,8 +6,8 @@ body{
     background-color: black; /*cor de fundo em preto*/
 }
 /* area textual*/
-.text{
-    color:azure; /* cor do texto*/
+.nome{
+    color: rgb(136, 190, 236); /* cor do texto*/
     text-decoration: underline; /* deixar o texto sublinhado*/
     text-align: center; /* alinhar ao centro*/
     margin: 20px; /*margem*/
@@ -15,16 +15,24 @@ body{
     font-weight: bold; /* negrito*/
 }
 
-.text2{
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
     margin: 10px;
     color: rgb(136, 190, 236);
     font-size: 35px;
 }
 
-.text3{
+.text{
     margin: 05px;
     color: aliceblue;
     font-size: 20px;
+}
+
+.text1{
+    margin: 05px;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: justify;
 }
 
 /*Imagem*/
