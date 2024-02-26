@@ -68,7 +68,7 @@ nav { /* este nav é para agrupa uma lista de links */
 }
 nav a { /* colocamos o A por conta do hiperlink*/
     display: inline; /* é para deixar em formato de linha porém dentro do retangulo*/
-    margin: 0 0 0 250px; /* aqui é para deixar um do lado do outro*/
+    margin: 0 0 0 200px; /* aqui é para deixar um do lado do outro*/
 }
 
 #menu a { /* colocamos o A por conta do hiperlink*/
@@ -85,3 +85,10 @@ nav a { /* colocamos o A por conta do hiperlink*/
 }
 
 /* textual*/
+
+.direitos{
+    color:#92b7fc;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
