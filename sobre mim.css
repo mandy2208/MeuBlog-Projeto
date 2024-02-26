@@ -59,7 +59,7 @@ nav a { /* colocamos o A por conta do hiperlink*/
 .quadrado{
     background-color: rgb(11, 4, 77);
     width: 800px;
-    height: 800px;
+    height: 698px;
     border: solid 3px rgb(255, 255, 255);
     position: absolute;
     margin-top: 10px;
@@ -88,7 +88,7 @@ nav a { /* colocamos o A por conta do hiperlink*/
     font-size: 20px;
 }
 #texto{
-    text-align: center;
+    text-align: justify;
     color: rgb(255, 255, 255);
     font-size: 20px;
 
