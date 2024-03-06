@@ -38,3 +38,39 @@ nav a { /* colocamos o A por conta do hiperlink*/
     color: rgb(110, 200, 252);  /* cor*/
     font-size: 15px; /* tamanho do texto no movimento*/
 }
+.quadrado{
+    background-color: rgb(11, 4, 77);
+    width: 800px;
+    height: 500px;
+    border: solid 3px rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 300px;
+    border-radius: 05px;
+    opacity: 60%;
+}
+#titulo{
+    top: 05px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+#imagens{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+#Facebook{
+    margin: 10px;
+    height: 100px;
+    width: 110px;
+}
+#Insta{
+    height: 115px;
+    width: 120px;
+}
+#Whats{
+    height: 115px;
+    width: 120px;
+}
