@@ -1,0 +1,40 @@
+*{
+    margin: 0; /* aqui é para a margem de todo o meu código*/
+    position: relative; /* aqui é para deixar a posição do meu código*/
+}
+body{
+    background-image: url(img/fundo\ 3.gif); /* aqui é a imagem de fundo*/
+    background-repeat: no-repeat; /* aqui é para a imagem não se repetir*/
+    background-attachment: fixed; /*aqui é para deixar a imagem fixada ao fundo*/
+    background-size: cover; /* aq,ui é para se ajustar ao tamanho*/
+    image-resolution: 2000%; /* aqui já é para resolução da imagem*/
+}
+
+header { /*Cabeçalho*/
+    background-image: linear-gradient(to right,  #000000, #002b7c); /* aqui é para deixar o retangulo em cor gradiente*/
+    padding: 20px; /* tamanho do meu retangulo*/
+}
+
+/* menu*/ 
+
+nav { /* este nav é para agrupa uma lista de links */
+    top: 10%; /* alinhamento para cima*/
+    right: 10%; /* alinhamento a direita*/    
+}
+nav a { /* colocamos o A por conta do hiperlink*/
+    display: inline; /* é para deixar em formato de linha porém dentro do retangulo*/
+    margin: 0 0 0 200px; /* aqui é para deixar um do lado do outro*/
+}
+
+#menu a { /* colocamos o A por conta do hiperlink*/
+    text-transform: uppercase; /* formato da letra*/
+    color: rgb(255, 255, 255); /* cor da letra*/
+    font-weight: bold; /* negrito*/
+    font-size: 20px; /* tamanho*/
+    text-decoration: none; /* deixar sem sublinhado*/
+}
+
+#menu a:hover { /* este hover é para movimento no texto*/
+    color: rgb(110, 200, 252);  /* cor*/
+    font-size: 15px; /* tamanho do texto no movimento*/
+}
